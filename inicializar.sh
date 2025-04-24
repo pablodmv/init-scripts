@@ -43,7 +43,7 @@ sudo usermod -aG docker $USER
 
 # Instalar Node.js y npm
 echo "Instalando Node.js y npm..."
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
 
 # Instalar dependencias globales para Next.js
